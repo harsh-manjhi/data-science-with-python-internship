@@ -1,57 +1,66 @@
-# Data Science with Python Internship Projects
+# Data Science with Python Internship Projects  
 
 **Intern:** Harsh  
 **Domain:** Data Science with Python  
 **Organization:** Main Flow Services and Technologies Pvt. Ltd.  
-**Duration:** November 2025
+**Duration:** November 2025  
 
 ---
 
-##  Task 1: Student Performance Analysis
-- Loaded and analyzed the **Student Performance Dataset (student-mat.csv)**  
-- Cleaned data, removed duplicates, handled missing values  
-- Performed descriptive statistics and answered questions such as:
-  - Average G3 score
-  - Correlation between studytime and grades
-- Created visualizations using **Matplotlib** and **Seaborn**
+##  Task 1 – Student Performance Analysis  
 
--> [View Notebook](./DATA_SCIENCE_WITH_PYTHON_HARSH_TASK1.ipynb)
+- Loaded and analyzed the **Student Performance Dataset (`student-mat.csv`)**  
+- Cleaned data, removed duplicates, and handled missing values  
+- Performed descriptive statistics to answer key questions such as:  
+  - Average `G3` (final grade)  
+  - Correlation between `studytime` and `grades`  
+- Created visualizations using **Matplotlib** and **Seaborn**  
 
----
-
-##  Task 2: Exploratory Data Analysis & Sales Performance
-- **Part A:** Performed EDA on a simulated retail dataset  
-  - Detected outliers, analyzed sales/profit distribution, correlation heatmap  
-- **Part B:** Built a simple **Linear Regression** model predicting *Sales* using *Profit* and *Discount*  
-  - Evaluated with R² and MSE  
-  - Visualized trends and patterns with histograms, boxplots, scatterplots, and pie charts
--> [View Notebook](./DATA_SCIENCE_WITH_PYTHON_HARSH_TASK2.ipynb)
----
-
-##  Task 3: Customer Segmentation using Clustering
-
-- **Objective:** Perform Exploratory Data Analysis (EDA) and apply **K-Means clustering** to segment customers based on their purchasing characteristics.
-- **Dataset:** Synthetic customer dataset created with variables — *Age, Annual Income, Spending Score*.  
-  (The original `customer_data.csv` link was unavailable, so a realistic dataset was generated. The notebook includes instructions to replace it if the real file becomes available.)
-- **Steps Covered:**
-  - Data cleaning & scaling using `StandardScaler`
-  - Optimal cluster selection via **Elbow Method** and **Silhouette Score**
-  - Application of **KMeans** and visualization using **PCA**
-  - Pairplot and centroid analysis to interpret clusters
-  - Business insights and recommendations for marketing strategies
-
--> [View Notebook](./DATA_SCIENCE_WITH_PYTHON_HARSH_TASK3.ipynb)
+-> [**View Notebook**](./DATA_SCIENCE_WITH_PYTHON_HARSH_TASK1.ipynb)
 
 ---
 
-###  Tools & Techniques Used
-- **Python libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn
-- **ML Algorithm:** KMeans clustering
-- **Visualization:** PCA scatterplots, pairplots, heatmaps
+##  Task 2 – Exploratory Data Analysis & Sales Performance  
+
+- **Part A:** Performed **EDA** on a simulated retail dataset  
+  - Detected outliers, analyzed sales/profit distribution, and built a correlation heatmap  
+- **Part B:** Built a **Linear Regression model** to predict *Sales* using *Profit* and *Discount*  
+  - Evaluated performance using **R²** and **MSE**  
+  - Visualized insights with histograms, boxplots, scatterplots, and pie charts  
+
+-> [**View Notebook**](./DATA_SCIENCE_WITH_PYTHON_HARSH_TASK2.ipynb)
 
 ---
 
-###  Outcome
-This project identifies key customer groups and their behavioral patterns, enabling data-driven marketing strategies and targeted engagement approaches.
+##  Task 3 – Customer Segmentation using Clustering  
 
+- **Objective:** Perform **Exploratory Data Analysis (EDA)** and apply **K-Means clustering** to segment customers based on purchasing behavior.  
+- **Dataset:** Synthetic customer dataset with variables — *Age, Annual Income, Spending Score*.  
+  *(The original `customer_data.csv` link was unavailable; a realistic dataset was generated. The notebook includes instructions to swap it for the real one if obtained.)*  
 
+- **Steps Covered:**  
+  - Data cleaning & scaling using `StandardScaler`  
+  - Optimal cluster selection via **Elbow Method** and **Silhouette Score**  
+  - KMeans clustering and visualization using **PCA**  
+  - Pairplot & centroid interpretation for insights  
+  - Actionable business recommendations  
+
+-> [**View Notebook**](./DATA_SCIENCE_WITH_PYTHON_HARSH_TASK3.ipynb)
+
+---
+
+##  Tools & Techniques Used  
+- **Programming:** Python  
+- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn  
+- **Methods:** EDA, Regression, Clustering (KMeans), PCA Visualization  
+- **Environment:** Google Colab + GitHub Integration  
+
+---
+
+##  Outcome  
+Successfully completed all three internship assignments demonstrating skills in:  
+- Data cleaning, visualization, and statistical analysis  
+- Predictive modeling using regression  
+- Unsupervised learning for customer segmentation  
+
+Each project was executed, documented, and published via Google Colab → GitHub workflow for transparent and reproducible results.  

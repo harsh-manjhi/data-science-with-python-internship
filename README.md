@@ -24,7 +24,8 @@
   - Detected outliers, analyzed sales/profit distribution, correlation heatmap  
 - **Part B:** Built a simple **Linear Regression** model predicting *Sales* using *Profit* and *Discount*  
   - Evaluated with R² and MSE  
-  - Visualized trends and patterns with histograms, boxplots, scatterplots, and pie charts  
+  - Visualized trends and patterns with histograms, boxplots, scatterplots, and pie charts
+-> [View Notebook](./DATA_SCIENCE_WITH_PYTHON_HARSH_TASK2.ipynb)
 ---
 
 ##  Task 3: Customer Segmentation using Clustering

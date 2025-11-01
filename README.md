@@ -25,19 +25,32 @@
 - **Part B:** Built a simple **Linear Regression** model predicting *Sales* using *Profit* and *Discount*  
   - Evaluated with R² and MSE  
   - Visualized trends and patterns with histograms, boxplots, scatterplots, and pie charts  
+---
 
-👉 [View Notebook](./DATA_SCIENCE_WITH_PYTHON_HARSH_TASK2.ipynb)
+## 📙 Task 3: Customer Segmentation using Clustering
+
+- **Objective:** Perform Exploratory Data Analysis (EDA) and apply **K-Means clustering** to segment customers based on their purchasing characteristics.
+- **Dataset:** Synthetic customer dataset created with variables — *Age, Annual Income, Spending Score*.  
+  (The original `customer_data.csv` link was unavailable, so a realistic dataset was generated. The notebook includes instructions to replace it if the real file becomes available.)
+- **Steps Covered:**
+  - Data cleaning & scaling using `StandardScaler`
+  - Optimal cluster selection via **Elbow Method** and **Silhouette Score**
+  - Application of **KMeans** and visualization using **PCA**
+  - Pairplot and centroid analysis to interpret clusters
+  - Business insights and recommendations for marketing strategies
+
+👉 [View Notebook](./DATA_SCIENCE_WITH_PYTHON_HARSH_TASK3.ipynb)
 
 ---
 
-## 🧠 Tools & Libraries Used
-- Python, Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit-learn (Linear Regression, metrics)
+### 🧠 Tools & Techniques Used
+- **Python libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn
+- **ML Algorithm:** KMeans clustering
+- **Visualization:** PCA scatterplots, pairplots, heatmaps
 
 ---
 
-## 🏁 Outcome
-Completed all assigned tasks within the 7-day project timeline.  
-Practiced real-world data cleaning, EDA, and basic predictive modeling techniques.
+### 🏁 Outcome
+This project identifies key customer groups and their behavioral patterns, enabling data-driven marketing strategies and targeted engagement approaches.
+
 
